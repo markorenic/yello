@@ -1,0 +1,122 @@
+html {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(180deg, #6310CD 14.58%, #74E8EF 100%);
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+
+body {
+    height:100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -10;
+    color: white;
+}
+
+input, button, select, textarea, form, table {
+    font-family: inherit;
+}
+
+.p5Canvas {
+    margin: 10vh auto;
+}
+
+
+#mainui-play {
+    background-color: white;
+    border-radius: 10px;
+    width: 60vmin;
+    height: 25vmin;
+    text-align: center;
+    z-index: 999;
+    margin: 0 auto;
+    position: absolute;              
+    top: 40%;
+    left: 50%;                         
+    transform: translate(-50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#nick {
+    position: relative;
+    margin: 10%;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #A2A2A2;
+    width: 80%;
+    height: 25%;
+    display: inline-block;
+}
+
+#yello {
+    max-height: 20vh;
+    z-index: 999;
+}
+
+
+.btn-play {
+    width: 70%;
+    font-size: 120%;
+    height: 40%;
+    color: white;
+    background-color: #f0d465;
+    border-radius: 10px;
+    margin: 10px;
+    border: 1px solid transparent;
+    display: inline-block;
+    bottom: 20%;
+    box-shadow: 0 0 8px rgba(81, 122, 234, 0.2);
+    text-shadow: 0 0 5px rgba(81, 122, 234, 0.2);
+    text-align: center;
+}
+
+.btn-play:hover {
+    background-color: #f3e956;
+}
+
+.labels {
+    display: inline-block;
+    position: absolute;
+    display: none;
+}
+
+
+
+
+.grid{
+    position: absolute;
+    font-size: 13px;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+    grid-template-columns: auto auto;
+    align-content: baseline;
+    margin: 30px;
+}
+
+#queue {
+    position: relative;
+    margin: 10px;
+    display: inline-block;
+}
+
+
+#directions {
+    float: right;
+    position: relative;
+}
+
+
+.p-icon{
+    width: 30px !important;
+    height: 30px !important;
+}
+
+/*#canvas-div{
+    top: 40%;
+    left: 50%;                         
+    transform: translate(-50%);
+}*/
