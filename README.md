@@ -1,5 +1,6 @@
 # yello
 An online game for multiplayer pacman with voice control ability
+https://cdn.discordapp.com/attachments/724007028410023948/724472471843110952/unknown.png
 ## Inspiration
 With all of us cooped up in our homes, we’ve found new ways to connect with one another and future classmates, forging new friendships through Discord calls and online multiplayer games. We wanted to implement a game we all loved, with a competitive and novel twist: voice activation! Not only is our game a fantastic community builder, it challenges the brain and strengthens reading skills while being an accessible way to play.
 
